@@ -34,7 +34,7 @@ public class MailTests {
         String content = templateEngine.process("/mail/demo", context);
         System.out.println(content);
 
-        mailClient.sendMail("lihonghe@nowcoder.com", "HTML", content);
+        mailClient.sendMail("1137825301@qq.com", "HTML", content);
     }
 
 }
